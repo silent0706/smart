@@ -21,9 +21,9 @@ module.exports = {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -35,28 +35,36 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Find we at',
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: 'Facebook',
+              to: 'Facebook/',
+            },
+            {
+              label: 'Instagram',
+              to: 'Instagram/',
+            },
+            {
+              label: 'Twitter',
+              to: 'Twitter/',
+            },
+            {
+              label: 'LinkedIn',
+              to: 'LinkedIn/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Our',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Team',
+              to: 'Team/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Works',
+              to: 'Works/',
             },
           ],
         },
@@ -74,7 +82,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}, SmartNusantara.`,
     },
   },
   presets: [
