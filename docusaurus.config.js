@@ -50,55 +50,55 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Find we at",
-          items: [
-            {
-              label: "Facebook",
-              to: "Facebook/",
-            },
-            {
-              label: "Instagram",
-              to: "Instagram/",
-            },
-            {
-              label: "Twitter",
-              to: "Twitter/",
-            },
-            {
-              label: "LinkedIn",
-              to: "LinkedIn/",
-            },
-          ],
-        },
-        {
-          title: "Our",
-          items: [
-            {
-              label: "Team",
-              to: "Team/",
-            },
-            {
-              label: "Works",
-              to: "Works/",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/fiqriachmada/smart",
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: "Find we at",
+      //     items: [
+      //       {
+      //         label: "Facebook",
+      //         // to: "Facebook/",
+      //       },
+      //       {
+      //         label: "Instagram",
+      //         // to: "Instagram/",
+      //       },
+      //       {
+      //         label: "Twitter",
+      //         // to: "Twitter/",
+      //       },
+      //       {
+      //         label: "LinkedIn",
+      //         // to: "LinkedIn/",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Our",
+      //     items: [
+      //       {
+      //         label: "Team",
+      //         // to: "Team/",
+      //       },
+      //       {
+      //         label: "Works",
+      //         // to: "Works/",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "Blog",
+      //         to: "blog",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/fiqriachmada/smart",
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()}, SmartNusantara.`,
     },
   },
