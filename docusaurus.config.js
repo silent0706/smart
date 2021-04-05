@@ -19,16 +19,16 @@ module.exports = {
       },
       items: [
         {
-          type: 'localeDropdown',
+          type: "localeDropdown",
 
           //// Optional
-          position: 'left',
+          position: "left",
           // Add additional dropdown items at the beginning/end of the dropdown.
           dropdownItemsBefore: [],
           dropdownItemsAfter: [
             {
-              to: 'https://my-site.com/help-us-translate',
-              label: 'Help us translate',
+              to: "https://my-site.com/help-us-translate",
+              label: "Help us translate",
             },
           ],
         },
@@ -40,6 +40,12 @@ module.exports = {
           label: "Docs",
           position: "right",
         },
+        {
+          to: "team",
+          label: "Team",
+          position: "right",
+          activeBaseRegex: `team`,
+        },
         { to: "blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/fiqriachmada/smart",
@@ -50,55 +56,56 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      // links: [
-      //   {
-      //     title: "Find we at",
-      //     items: [
-      //       {
-      //         label: "Facebook",
-      //         // to: "Facebook/",
-      //       },
-      //       {
-      //         label: "Instagram",
-      //         // to: "Instagram/",
-      //       },
-      //       {
-      //         label: "Twitter",
-      //         // to: "Twitter/",
-      //       },
-      //       {
-      //         label: "LinkedIn",
-      //         // to: "LinkedIn/",
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: "Our",
-      //     items: [
-      //       {
-      //         label: "Team",
-      //         // to: "Team/",
-      //       },
-      //       {
-      //         label: "Works",
-      //         // to: "Works/",
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: "More",
-      //     items: [
-      //       {
-      //         label: "Blog",
-      //         to: "blog",
-      //       },
-      //       {
-      //         label: "GitHub",
-      //         href: "https://github.com/fiqriachmada/smart",
-      //       },
-      //     ],
-      //   },
-      // ],
+      links: [
+        {
+          // title: "Find we at",
+          items: [
+            // {
+            //   label: "Facebook",
+            //   // to: "Facebook/",
+            // },
+            // {
+            //   label: "Instagram",
+            //   // to: "Instagram/",
+            // },
+            // {
+            //   label: "Twitter",
+            //   // to: "Twitter/",
+            // },
+            // {
+            //   label: "LinkedIn",
+            //   // to: "LinkedIn/",
+            // },
+          ],
+        },
+        {
+          items: [
+            {
+              label: "BELLA CASA VILLAGE MEZZO 17, GRESIK",
+              to: "https://goo.gl/maps/jm5nyWsEFpnx3hr6A",
+            },
+            {
+              label: "0812-3427-1646",
+              to: "tel:+6281234271646",
+            },
+            {
+              label: "admin@smartnusanatara.id",
+              to: "mailto:admin@smartnusanatara.id",
+            },
+            // {
+            //   label: "Team",
+            //   to: "team/",
+            // },
+            //       label: "Blog",
+            //       to: "blog",
+            //     },
+            //     {
+            //       label: "GitHub",
+            //       href: "https://github.com/fiqriachmada/smart",
+            //     },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()}, SmartNusantara.`,
     },
   },
