@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "SMARTONE",
-  tagline: "The tagline of my site",
+  tagline: "We don't hide, we stand bravely in front of challenges",
   url: "https://smartnusantara.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
