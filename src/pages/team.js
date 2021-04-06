@@ -26,7 +26,7 @@ function Team() {
                 </div>
                 <div className="card__image">
                   {/* image source */}
-                  <img src="/img/team.svg" />
+                  <img src="/img/team.svg" loading="lazy" />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
@@ -49,7 +49,7 @@ function Team() {
                 <div className="card__header">
                   <h2>Marketing</h2>
                 </div>
-                <div className="card__image">
+                <div className="card__image" loading="lazy">
                   {/* image source */}
                   <img src="/img/team.svg" />
                 </div>
@@ -75,7 +75,7 @@ function Team() {
                 <div className="card__header">
                   <h2>Software Engineer</h2>
                 </div>
-                <div className="card__image">
+                <div className="card__image" loading="lazy">
                   {/* image source */}
                   <img src="/img/team.svg" />
                 </div>
@@ -102,7 +102,7 @@ function Team() {
                 </div>
                 <div className="card__image">
                   {/* image source */}
-                  <img src="/img/team.svg" />
+                  <img src="/img/team.svg" loading="lazy" />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
@@ -120,7 +120,7 @@ function Team() {
           </div>
           <div className="row">
             <div className="col col--3 margin-bottom--lg"></div>
-            {/* div 4 */}
+            {/* div 5 */}
             <div className="col col--3 margin-bottom--lg">
               <div
                 className={clsx("card", styles.showcaseUser)}
@@ -131,14 +131,16 @@ function Team() {
                 </div>
                 <div className="card__image">
                   {/* image source */}
-                  <img src="/img/team.svg" />
+                  <img src="/img/team.svg" loading="lazy" />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
                     <div className="avatar__intro margin-left--none">
                       <h4 className="avatar__name">Astrid Inggit</h4>
                       <small className="avatar__subtitle text--justify">
-                      Saya suka bertemu orang baru, sebab semakin saya bertemu orang baru semakin saya tahu bahwa saya belum banyak tahu apa-apa
+                        Saya suka bertemu orang baru, sebab semakin saya bertemu
+                        orang baru semakin saya tahu bahwa saya belum banyak
+                        tahu apa-apa
                       </small>
                     </div>
                   </div>
