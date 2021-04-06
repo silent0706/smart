@@ -15,6 +15,7 @@
   --ifm-color-primary-darker: #050038;
   --ifm-color-primary-darkest: #04002e;
   --ifm-code-font-size: 95%;
+  font-family: "Google Sans";
 }
 
 .docusaurus-highlight-code-line {
