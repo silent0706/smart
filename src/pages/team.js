@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import styles from "./styles.module.css";
-const TITLE = "Team";
+const TITLE = "Our Team";
 const DESCRIPTION = "Awesome people who working with";
+// We don't hide, we stand bravely in front of challenges
 
 function Team() {
   return (
@@ -92,6 +93,7 @@ function Team() {
               </div>
             </div>
             {/* div 4 */}
+          <div className="row">
             <div className="col col--3 margin-bottom--lg">
               <div
                 className={clsx("card", styles.showcaseUser)}
@@ -118,9 +120,36 @@ function Team() {
               </div>
             </div>
           </div>
-          <div className="row">
             <div className="col col--3 margin-bottom--lg"></div>
             {/* div 5 */}
+          <div className="row">
+            <div className="col col--3 margin-bottom--lg">
+              <div
+                className={clsx("card", styles.showcaseUser)}
+                className="card item shadow--md"
+              >
+                <div className="card__header">
+                  <h2>Software Engineer</h2>
+                </div>
+                <div className="card__image">
+                  {/* image source */}
+                  <img src="/img/team.svg" loading="lazy" />
+                </div>
+                <div className="card__body">
+                  <div className="avatar">
+                    <div className="avatar__intro margin-left--none">
+                      <h4 className="avatar__name">David Wahyu Pradana</h4>
+                      <small className="avatar__subtitle text--justify">
+                        Selalu bersyukur, dengan profesionalitas untuk tanggung jawab di masa yang akan datang
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div className="col col--3 margin-bottom--lg"></div>
+            {/* div 6 */}
             <div className="col col--3 margin-bottom--lg">
               <div
                 className={clsx("card", styles.showcaseUser)}
@@ -138,7 +167,7 @@ function Team() {
                     <div className="avatar__intro margin-left--none">
                       <h4 className="avatar__name">Astrid Inggit</h4>
                       <small className="avatar__subtitle text--justify">
-                        Saya suka bertemu orang baru, sebab semakin saya bertemu
+                        suka bertemu orang baru, sebab semakin banyak bertemu
                         orang baru semakin saya tahu bahwa saya belum banyak
                         tahu apa-apa
                       </small>

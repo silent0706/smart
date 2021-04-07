@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "SMARTONE",
-  tagline: "We don't hide, we stand bravely in front of challenges",
+  tagline: "      We don't hide, we stand bravely in front of challenges",
   url: "https://smartnusantara.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -86,7 +86,7 @@ module.exports = {
             },
             {
               label: "0812-3427-1646",
-              to: "tel:+6281234271646",
+              to: "https://wa.me/6281234271646",
             },
             {
               label: "admin@smartnusanatara.id",
@@ -106,7 +106,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()}, SmartNusantara.`,
+      copyright: `© ${new Date().getFullYear()}, smartnusantara | All Rights  Reserved`,
     },
   },
   presets: [

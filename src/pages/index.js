@@ -12,13 +12,13 @@ const features = [
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Perusahaan ini didirikan & dikelola oleh orang yang
+        berkopeten dibidang IT, Industri, Art, serta Design Engineer.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Scope of Work",
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
@@ -28,12 +28,12 @@ const features = [
     ),
   },
   {
-    title: "Powered by React",
+    title: "Our Team",
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Dikendalikan oleh para profesional yang telah berpengalaman
+        puluhan tahun di bidang Teknologi dan Informasi, Art, Design Engineer maupun di bidang Industri
       </>
     ),
   },
